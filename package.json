@@ -58,7 +58,7 @@
     "eject": "react-scripts eject",
     "postinstall": "electron-builder install-app-deps",
     "preelectron-pack": "yarn build",
-    "electron-pack": "electron-builder -mw"
+    "electron-pack": "electron-builder -m"
   },
   "build": {
     "appId": "com.tohan.chat-peer-to-peer",

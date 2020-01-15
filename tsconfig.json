@@ -20,6 +20,6 @@
     "jsx": "react"
   },
   "include": [
-    "src", "server", "public/electron.js"
+    "src", "server", "public/electron.js", "public/services/p2pServer.js", "public/services/networkFinder.js"
   ]
 }
