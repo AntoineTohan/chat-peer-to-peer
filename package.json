@@ -3,7 +3,7 @@
   "description": "Application chat en peer to peer electron TS",
   "version": "0.1.0",
   "private": true,
-  "main": "server/electron.js",
+  "main": "public/electron.js",
   "proxy": "http://localhost:3001",
   "homepage": "./",
   "author": {

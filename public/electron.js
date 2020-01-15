@@ -5,8 +5,8 @@ const BrowserWindow = electron.BrowserWindow;
 const path = require("path");
 const isDev = require("electron-is-dev");
 
-require("./services/p2pServer");
-require("./services/networkFinder");
+require("../server/services/p2pServer");
+require("../server/services/networkFinder");
 
 let mainWindow;
 
