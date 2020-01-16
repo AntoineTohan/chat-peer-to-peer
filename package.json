@@ -52,13 +52,14 @@
   },
   "scripts": {
     "electron:dev": "ELECTRON_IS_DEV=1 concurrently \"BROWSER=none yarn start\" \"wait-on http://localhost:3000 && tsc && electron .\"",
-    "electron:prod": "ELECTRON_IS_DEV=0 concurrently \"BROWSER=none yarn start\" \"wait-on http://localhost:3000 && electron .\"",
+    "electron:prod": "ELECTRON_IS_DEV=0 concurrently \"BROWSER=none yarn start\" \"wait-on http://localhost:3000 && tsc && electron .\"",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "eject": "react-scripts eject",
     "postinstall": "electron-builder install-app-deps",
     "preelectron-pack": "yarn build",
-    "electron-pack": "electron-builder -m"
+    "electron-pack-windows": "electron-builder -w",
+    "electron-pack-mac": "electron-builder -m"
   },
   "build": {
     "appId": "com.tohan.chat-peer-to-peer",

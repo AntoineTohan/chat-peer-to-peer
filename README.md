@@ -42,14 +42,14 @@ cd chat-peer-to-peer/
 
 yarn
 
-yarn electron:prod
+yarn electron:dev
 
 ```
 
+Generate executables
 
-or use the executable
 ```
 
-yarn electron-pack
-
+yarn electron-pack-windows // for .exe app
+yarn electron-pack-mac // for .dmg app
 ```
