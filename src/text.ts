@@ -4,10 +4,10 @@ export const Text = {
   },
   login: {
     name: "Name",
-    connect: "Client to connect",
+    connect: "Server to connect",
     descriptionIp:
-      "(Put the ip address of a connected client or nothing or create a new chat room)",
-    localMachines: "List local machine",
+      "(Put the ip address of a chatroom connected or nothing for create a new chatroom)",
+    localMachines: "List locals machines",
     submit: "Submit",
     connected: "Connected",
     disconnected: "Disconnected",

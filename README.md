@@ -19,8 +19,8 @@ WARNING : electron entry point of back end is in public folder@ requires if I wa
 ## Environment prerequisites
 
 - Node v10.17.0
-- Yarn 1.21.0
-- Git version 2.20.1
+- Yarn v1.21.0
+- Git v2.20.1
 
 ## Environment prerequisites
 
