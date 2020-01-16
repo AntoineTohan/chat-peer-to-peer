@@ -34,10 +34,13 @@ https://yarnpkg.com/lang/en/docs/install/
 
 ## Intallation guide
 
+Get archive and unzip it
+or
+```
+git clone https://github.com/AntoineTohan/chat-peer-to-peer.git
 ```
 
-git clone https://github.com/AntoineTohan/chat-peer-to-peer.git
-
+```
 cd chat-peer-to-peer/
 
 yarn
