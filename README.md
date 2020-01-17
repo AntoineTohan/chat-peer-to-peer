@@ -1,6 +1,6 @@
 # Peer to peer chat app on local network
 
-DURAND Antoine | THOMAS Hugo (afk bruh)
+DURAND Antoine | THOMAS Hugo
 
 **Important:** Although we have done our best efforts to make sure the information in here is as complete, accurate, and up-to-date as possible.
 
@@ -56,3 +56,12 @@ Generate executables
 yarn electron-pack-windows // for .exe app
 yarn electron-pack-mac // for .dmg app
 ```
+
+
+
+
+To make a test with two customers on the same machine just start the electron application. You would have a client connect opened a new chatroom without entering an IP. 
+
+Then go to your browser on http://localhost:3000/ and you would have another client on the side.
+
+All you have to do is not enter any IP address and you will be connected to the same chatroom as the client that started the desktop application.
